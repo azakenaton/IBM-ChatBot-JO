@@ -1,0 +1,13 @@
+<h1>Bienvenue sur le site d'information des jeux olympiques !</h1>
+<p>
+  Notre bot est réalisé sur Watson Assistant. Il communique avec notre serveur qui utilise la technologie <b>Node.JS</b>. Il est intégréable sur <i>Slack</i>.
+</p><br>
+
+<h2>Dernières actualités sportives</h2>
+<em>Source : lemonde.fr</em><br>
+{{#each news}}
+<div style="width: 30%; display: inline-block; margin-bottom: 20px">
+  <p><b>{{titre}}</b></p>
+  <p>{{contenu}}</p>
+</div>
+{{/each}}

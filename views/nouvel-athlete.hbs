@@ -1,0 +1,26 @@
+<h2>Inscription d'un nouvel athlète</h2>
+<div class="container-fluid">
+    <form method="post" action="/api/athletes">
+        <div class="form-group">
+            <label for="firstName">Nom</label>
+            <input name="firstName" type="text" class="form-control" id="firstName">
+        </div>
+        <div class="form-group">
+            <label for="lastName">Prénom</label>
+            <input name="lastName" type="text" class="form-control" id="lastName">
+        </div>
+        <div class="form-group">
+            <label for="gender">Genre</label>
+            <select name="gender" id="gender" class="form-control" id="exampleFormControlSelect2">
+                <option value="M">Homme</option>
+                <option value="F">Femme</option>
+            </select>
+        </div>
+           <div class="form-group">
+            <label for="country">Pays</label>
+            <input name="country" type="text" class="form-control" id="country">
+        </div>
+        <button type="submit" class="btn btn-primary">Valider l'inscription</button>
+        <a href="/api/athletes" class="btn btn-cancel">Retour</a>
+    </form>
+</div>

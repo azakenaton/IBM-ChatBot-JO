@@ -1,0 +1,28 @@
+<h1>Liste des athlètes de {{sport.name}}</h1><br>
+{{#if listeAthletes}}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Genre</th>
+            <th>Pays</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each listeAthletes}}
+            <tr>
+                <td>{{firstName}}</td>
+                <td>{{lastName}}</td>
+                <td>{{gender}}</td>
+                <td>{{country}}</td>
+                <td><a class="btn btn-primary" href="/api/athletes/{{id}}/sport/{{../sport.id}}">Supprimer</a></td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
+<br>
+{{else}}
+ <p>Le sport ne possède aucun athlète.</p>
+ {{/if}}

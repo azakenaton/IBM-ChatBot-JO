@@ -1,0 +1,1487 @@
+{
+  "intents": [
+    {
+      "intent": "AskSomeDiscipline",
+      "examples": [
+        {
+          "text": "Connais-tu des disciplines ?"
+        },
+        {
+          "text": "Donne moi le nom de disciplines"
+        },
+        {
+          "text": "Est-ce que tu peux aller me chercher des disciplines sur internet ?"
+        },
+        {
+          "text": "Nom de quelques disciplines"
+        },
+        {
+          "text": "Peux-tu me donner quelques disciplines ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "DateCreationJO",
+      "examples": [
+        {
+          "text": "A quand remonte les premiers JO ?"
+        },
+        {
+          "text": "Date de création des Jeux Olympiques ?"
+        },
+        {
+          "text": "Date des premiers Jeux Olympiques"
+        },
+        {
+          "text": "Depuis quand les JO existent ?"
+        },
+        {
+          "text": "De quand datent les Jeux Olympiques"
+        },
+        {
+          "text": "Quand est-ce que les JO ont commencé ?"
+        },
+        {
+          "text": "Quand est né les Jeux Olympiques ?"
+        },
+        {
+          "text": "Quand on été créé les Jeux Olympiques ?"
+        },
+        {
+          "text": "Quel est la date de création de JO ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "GetActualite",
+      "examples": [
+        {
+          "text": "dernière actualité sportive"
+        },
+        {
+          "text": "dernière actu sport"
+        },
+        {
+          "text": "dernière actu sportive"
+        },
+        {
+          "text": "Donne moi la dernière actualité sportive"
+        },
+        {
+          "text": "Quelle est la dernière actu sport"
+        },
+        {
+          "text": "Quelle est la dernière actu sportive"
+        },
+        {
+          "text": "quelle est la dernière actu sportive?"
+        },
+        {
+          "text": "Quelle est la dernière news sportives?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "GetAthleteInfos",
+      "examples": [
+        {
+          "text": "Affiche moi les données sur Cabrol"
+        },
+        {
+          "text": "Affiche moi les informations concernant Test"
+        },
+        {
+          "text": "Affiche moi les informations sur l'athlete Tintin"
+        },
+        {
+          "text": "Données sur T1"
+        },
+        {
+          "text": "Donne moi des informations concernant l'athlete Alexis"
+        },
+        {
+          "text": "Est-ce que tu as des informations sur l'athlete Test ?"
+        },
+        {
+          "text": "Informations sur Test"
+        },
+        {
+          "text": "Possèdes-tu des informations sur l'athlete Test ?"
+        }
+      ],
+      "description": "athletes"
+    },
+    {
+      "intent": "GetJOHistoric",
+      "examples": [
+        {
+          "text": "Affiche moi l'historique des JO"
+        },
+        {
+          "text": "Donne moi l'historique des jeux olympiques"
+        },
+        {
+          "text": "Donne moi l'historique des JO"
+        },
+        {
+          "text": "historique des jeux olympiques"
+        },
+        {
+          "text": "historique des jo"
+        },
+        {
+          "text": "historiques des jo"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "GetListAthletes",
+      "examples": [
+        {
+          "text": "Affiche mois tous les participants"
+        },
+        {
+          "text": "Affiche moi tous les athletes participants"
+        },
+        {
+          "text": "Affiche moi tous les sportifs"
+        },
+        {
+          "text": "Donne moi la liste des athletes"
+        },
+        {
+          "text": "Quel est la liste des athletes ?"
+        },
+        {
+          "text": "Quels sont les athletes participants ?"
+        },
+        {
+          "text": "Qui sont tous les athletes participants ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "GetListBetterCountry",
+      "examples": [
+        {
+          "text": "Les pays avec le plus de médailles"
+        },
+        {
+          "text": "Liste pays avec nombres de médailles"
+        },
+        {
+          "text": "Pays avec les plus de médailles"
+        },
+        {
+          "text": "Quel pays a le plus de médailles ?"
+        },
+        {
+          "text": "Quel pays est le plus titrés ?"
+        },
+        {
+          "text": "Quels sont les équipes les plus médaillées ?"
+        },
+        {
+          "text": "Quels sont les pays qui ont gagnés le plus de médailles ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "GetNumberDiscipline",
+      "examples": [
+        {
+          "text": "Combien de discipline comptent les JO ?"
+        },
+        {
+          "text": "Combien il y a-t-il de discipline ?"
+        },
+        {
+          "text": "Donne moi le nombre de discipline"
+        },
+        {
+          "text": "Nombre de discipline des Jeux Olympiques"
+        },
+        {
+          "text": "Peux-tu me donner le nombre de discipline ?"
+        },
+        {
+          "text": "Quel est le nombre de discipline ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "GetNumberTest",
+      "examples": [
+        {
+          "text": "Combien d'épreuve les JO comptent-ils ?"
+        },
+        {
+          "text": "Combien il y a-t-il d'épreuve ?"
+        },
+        {
+          "text": "Le nombre d'épreuve"
+        },
+        {
+          "text": "Quel est le nombre d'épreuve ?"
+        },
+        {
+          "text": "Quelle est la quantité d'épreuve ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "GetSportsList",
+      "examples": [
+        {
+          "text": "Affiche moi l'ensemble des sports"
+        },
+        {
+          "text": "Donne moi la liste des sports"
+        },
+        {
+          "text": "Donne moi la liste des sports$"
+        },
+        {
+          "text": "l'ensemble des sports"
+        },
+        {
+          "text": "liste des sports"
+        },
+        {
+          "text": "Peux-tu afficher tous les sports ?"
+        },
+        {
+          "text": "Quelle est la liste des sports?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Hello",
+      "examples": [
+        {
+          "text": "Bonjour"
+        },
+        {
+          "text": "Bonsoir"
+        },
+        {
+          "text": "Coucou"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Holla"
+        }
+      ],
+      "description": "hello"
+    },
+    {
+      "intent": "SearchInfosJO",
+      "examples": [
+        {
+          "text": "J'ai envie d'en connaître d'avantage sur les JO"
+        },
+        {
+          "text": "Je recherche des informations sur les Jeux Olympiques"
+        },
+        {
+          "text": "Je recherche des informations sur les JO"
+        },
+        {
+          "text": "Je souhaitais en apprendre plus sur les Jeux Olympiques"
+        },
+        {
+          "text": "Je suis à la recherche d'information sur les Jeux Olympiques"
+        },
+        {
+          "text": "Je suis venu apprendre des informations sur les JO"
+        },
+        {
+          "text": "Je suis venu me documenter sur les JO"
+        },
+        {
+          "text": "Je suis venu pour apprendre des choses sur les Jeux Olympiques"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "SmallTalkBad",
+      "examples": [
+        {
+          "text": "ca va pas bien"
+        },
+        {
+          "text": "Ca va pas très bien ..."
+        },
+        {
+          "text": "Je ne me sens pas bien"
+        },
+        {
+          "text": "Pas au top de ma forme"
+        },
+        {
+          "text": "Pas bien"
+        },
+        {
+          "text": "Pas tres bien ..."
+        },
+        {
+          "text": "Pas trop trop"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "SmallTalkOk",
+      "examples": [
+        {
+          "text": "Ca va bien"
+        },
+        {
+          "text": "ça va bien merci"
+        },
+        {
+          "text": "Ca va super"
+        },
+        {
+          "text": "Je me sens bien"
+        },
+        {
+          "text": "Je me sens bien merci"
+        },
+        {
+          "text": "Tranquille"
+        },
+        {
+          "text": "Tranquille :)"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "SmalTalkHowYouFeel",
+      "examples": [
+        {
+          "text": "Comment ça va ?"
+        },
+        {
+          "text": "Comment te sens-tu ?"
+        },
+        {
+          "text": "Comment vas-tu ?"
+        },
+        {
+          "text": "Est-ce que tu vas bien ?"
+        },
+        {
+          "text": "How are you ?"
+        },
+        {
+          "text": "How do you feel ?"
+        },
+        {
+          "text": "Tout baigne ?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "gracias"
+        },
+        {
+          "text": "Merci"
+        },
+        {
+          "text": "merci beaucoup"
+        },
+        {
+          "text": "merci chacal"
+        },
+        {
+          "text": "merci gros"
+        },
+        {
+          "text": "merci ma couille"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thanks u"
+        },
+        {
+          "text": "thanks you"
+        },
+        {
+          "text": "thanks you very much"
+        },
+        {
+          "text": "tu gère"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "WhatAreYouDoing",
+      "examples": [
+        {
+          "text": "Est-ce que tu es occupé ?"
+        },
+        {
+          "text": "Est-ce que tu travail ?"
+        },
+        {
+          "text": "Es-tu occupé ?"
+        },
+        {
+          "text": "Que fais-tu en ce moment ?"
+        },
+        {
+          "text": "Quel activité es-tu en train de faire ?"
+        },
+        {
+          "text": "Qu'est-ce que tu fais ?"
+        },
+        {
+          "text": "Qu'est-ce que tu fais en ce moment ?"
+        },
+        {
+          "text": "Qu'est ce qui t'occupe en ce moment ?"
+        },
+        {
+          "text": "Qu'es-tu en train de faire ?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Again",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Continue",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Encore une",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Firstname",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cabrol",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Peter",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "T1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "T2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Test",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Test1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tintin",
+          "synonyms": [
+            "TinTin"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "JO",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "jeux olympiques",
+          "synonyms": [
+            "JO"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Lastname",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Alexis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Luc",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Milou",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Slovak",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "T1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "T2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Test",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Test1",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Me",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "et toi ?",
+          "synonyms": [
+            "toi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "et vous ?",
+          "synonyms": [
+            "vous"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "No",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Non",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Nothing",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Rien",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rien du tout",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Season",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "été",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hiver",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Sports",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Basket",
+          "synonyms": [
+            "Basketball"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Foot",
+          "synonyms": [
+            "Football"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Natation",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Saut à la perche",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Test",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Triathlon",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Yes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Oui",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://fluoridated-tangy-epoxy.glitch.me/webhook",
+      "name": "main_webhook",
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ]
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenue",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bonjour, comment te sens-tu ? "
+              },
+              {
+                "text": "Salut, comment tu vas ? "
+              },
+              {
+                "text": "Wesh, bien ou bien ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614870847686",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Hello",
+      "dialog_node": "Bienvenue"
+    },
+    {
+      "type": "standard",
+      "title": "Nombre d'épreuves ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Le nombre d'épreuves est différents selon la saison, il y a environs 300 épreuves en été et 100 en hiver. "
+              },
+              {
+                "text": "300 en été et 100 en hiver "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614936871829",
+      "conditions": "#GetNumberTest",
+      "dialog_node": "node_10_1614937670202",
+      "previous_sibling": "node_6_1614936901362"
+    },
+    {
+      "type": "standard",
+      "title": "Affichage des jeux olympiques",
+      "parent": "node_9_1614940664191",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "action": "jeuolympique"
+          },
+          "result_variable": "jeuolympique"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#GetJOHistoric",
+      "dialog_node": "node_1_1614859799537",
+      "previous_sibling": "node_9_1614785617743"
+    },
+    {
+      "type": "standard",
+      "title": "Comment ça va ?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je me sens bien merci. En quoi puis-je t'aider ? "
+              },
+              {
+                "text": "Ca va bien merci, je peux t'aider dans tes recherches ? "
+              },
+              {
+                "text": "Super, en pleine forme ! Que cherches-tu ici alors ?  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenue",
+      "conditions": "#SmallTalkOk && @Me",
+      "dialog_node": "node_1_1614935702633"
+    },
+    {
+      "type": "standard",
+      "title": "Que fais-tu ? ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Je suis actuellement en train de vous servir mon seigneur !"
+              },
+              {
+                "text": "Je me documente en ce moment même sur internet pour te répondre au mieux."
+              },
+              {
+                "text": "Rien, tu viens de me réveiller. J'ai pris une grosse cuite hier"
+              },
+              {
+                "text": "Pas grand chose, je m'occupe comme je peux et toi ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenue",
+      "conditions": "#WhatAreYouDoing",
+      "dialog_node": "node_2_1614936372237",
+      "previous_sibling": "node_7_1614941964538"
+    },
+    {
+      "type": "standard",
+      "title": "Affichage de la dernière actualité",
+      "parent": "node_9_1614940664191",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "action": "actualite"
+          },
+          "result_variable": "webhook_result_3"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#GetActualite",
+      "dialog_node": "node_3_1614869672675",
+      "previous_sibling": "node_1_1614859799537"
+    },
+    {
+      "type": "standard",
+      "title": "Oui pour la blague ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Un jeune homme entre chez le boucher et lui dit :\n– Bonjour Monsieur, je voudrais la main de votre fille.\nLe boucher répond :\n– D’accord, avec ou sans os ?"
+              },
+              {
+                "text": "Un avion s'écrase sur une île déserte, seuls le copilote, le pilote et l'hôtesse sont rescapés.\nTrès vite ils font face aux premiers problèmes de la vie sur une île déserte. Les deux mâles se retrouvent avec une seule femelle pour satisfaire leurs pulsions.\nLa jeune louve, soucieuse de maintenir la cohésion dans le groupe, accepte de coucher mais elle dit :\n\"Un soir ce sera le pilote, l'autre ce sera le copilote\"\nLes trois survivants s'accordent alors sur cette décision, et décident de vivre ainsi pendant un temps.\nLes mois passent et un jour l'hôtesse se noie. Désespérés, le pilote et le copilote doivent trouver une solution pour pallier à leur désir sexuel.\nEmbarrassé, le pilote dit à son copilote :\n\"Bon, je sais que ça ne t'amuse ni toi ni moi.\"\nLes deux hommes ont un regard long mais semblent tous d'eux être d'accord sur la chose.\n\"Un jour ce sera toi, un jour ce sera moi\" annonce enfin le pilote.\nLes deux hommes continuent alors ainsi pendant des années.\nMais un jour, le copilote arrive, très perturbé.\n\"Je.. Je peux plus là\"\n\"Quoi qu'est ce qu'il se passe?\"\n\"Je peux vraiment plus, faut que ça s'arrête\"\n\"Mais dis moi qu'est ce qu'il ne va pas?\"\n\"Faut vraiment qu'on l'enterre\""
+              },
+              {
+                "text": "Que dit une banane malade à ses camarades qui ont aussi chopé le virus ?\n– On va tous mûrir !"
+              },
+              {
+                "text": "Comment appelle-t-on des gars dépourvus de testicules qui se battent ?\n– Un combat sanglant (sans gland)."
+              },
+              {
+                "text": "C’est l’histoire de Why.\nWhy est bûcheron,\ncar depuis tout petit,\nWhy aime scier (Y-M-C-A)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Encore une blague ? ",
+            "options": [
+              {
+                "label": "Oui",
+                "value": {
+                  "input": {
+                    "text": "Oui"
+                  }
+                }
+              },
+              {
+                "label": "Non",
+                "value": {
+                  "input": {
+                    "text": "Non"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1614941964538",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_3_1614942736373"
+      },
+      "conditions": "@Yes",
+      "dialog_node": "node_3_1614942154430",
+      "previous_sibling": "node_3_1614942736373"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pas de problème, j'espère pouvoir t'être utile tout de même :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1614941964538",
+      "conditions": "@No",
+      "dialog_node": "node_3_1614942286674",
+      "previous_sibling": "node_3_1614942154430"
+    },
+    {
+      "type": "standard",
+      "title": "Encore une blague",
+      "parent": "node_7_1614941964538",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1614942154430"
+      },
+      "conditions": "@Yes",
+      "dialog_node": "node_3_1614942736373"
+    },
+    {
+      "type": "standard",
+      "title": "Recherche d'un athlete par son prenom",
+      "parent": "node_9_1614940664191",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "action": "getByPrenom",
+            "prenom": "@firstname"
+          },
+          "result_variable": "resultName"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#GetAthleteInfos && @Firstname",
+      "dialog_node": "node_4_1614848598742",
+      "previous_sibling": "node_5_1614861982395"
+    },
+    {
+      "type": "standard",
+      "title": "Récupération liste des athletes",
+      "parent": "node_9_1614940664191",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "action": "athletes"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#GetListAthletes",
+      "dialog_node": "node_5_1614861982395"
+    },
+    {
+      "type": "standard",
+      "title": "Rien",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que puis-je faire pour vous ? "
+              },
+              {
+                "text": "Comment puis-je vous aider ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_6_1614865177010",
+      "previous_sibling": "node_6_1614870814751"
+    },
+    {
+      "type": "standard",
+      "title": "Remerciements",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vous rendre service est la plus belle des choses, de rien ! ❤️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Thanks",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1614870814751",
+      "previous_sibling": "node_9_1614940664191"
+    },
+    {
+      "type": "standard",
+      "title": "Date de création ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Les Jeux Olympiques modernes datent de 1896. Ils prolongent la tradition  Grecque du VIIIème siècle av J-C."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614936871829",
+      "conditions": "#DateCreationJO",
+      "dialog_node": "node_6_1614936901362"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bah super, bouge toi un peu ! "
+              },
+              {
+                "text": "Bouge tes fesses ! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614936372237",
+      "conditions": "@Nothing",
+      "dialog_node": "node_6_1614948983747"
+    },
+    {
+      "type": "standard",
+      "title": "Informations sur les JO ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Super, c'est justement mon domaine de compétence ! Quel est ta question ? "
+              },
+              {
+                "text": "J'ai un peu la flemme la mais vas-y balance ta question quand même "
+              },
+              {
+                "text": "J'en connais un rayon donc tu peux me poser une question si tu veux "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614870847686",
+      "conditions": "#SearchInfosJO",
+      "dialog_node": "node_7_1614936738791",
+      "previous_sibling": "Bienvenue"
+    },
+    {
+      "type": "standard",
+      "title": "Je ne vais pas bien ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ho vraiment, courage quoi qu'il arrive je suis la pour tenter de te répondre au mieux ! En espérant que cela te rende ta journée meilleure :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Une petite blague pour te remonter le moral ? ",
+            "options": [
+              {
+                "label": "Oui",
+                "value": {
+                  "input": {
+                    "text": "oui"
+                  }
+                }
+              },
+              {
+                "label": "Non",
+                "value": {
+                  "input": {
+                    "text": "non"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "Bienvenue",
+      "conditions": "#SmallTalkBad",
+      "dialog_node": "node_7_1614941964538",
+      "previous_sibling": "node_8_1614943024805"
+    },
+    {
+      "type": "standard",
+      "title": "Liste des pays les plus médaillés",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1 - États-Unis, 2679 médaille - Mais ils trichent, on le sait.\n\n2 - Union Soviétique, 1204 médailles - Mais ils se dopaient. Et ils se dopent toujours.\n\n3 - Allemagne, 1162 médailles - Mais on compte les jeux de 36.\n\n4- Royaume-Uni, 806 médailles - Mais ils ont plein de pays pour y arriver, c'est plus simple.\n\n5- France, 781 médailles - Bravo. Chapo. Ca c'est mon équipe de champions.\n\n6- Italie, 664 médailles - Voir le point 1, tout pareil.\n\n7- Suède, 626 médailles - Tout classement a son énigme.\n\n8- Hongrie, 482 médailles - Admettons. Surement dans des sports à eux qu'on ne connait pas.\n\n9- Chine, 526 médailles - Oui, mais eux ils s'entrainent très dur depuis qu'ils sont tout petits. Nous aussi si on le faisait on en aurait des médailles.\n\n10- Australie, 480 médailles - Facile quand on est dans un pays où y'a rien d'autre à faire que du sport. Nous aussi si c'était le cas on en aurait des médailles."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614936871829",
+      "conditions": "#GetListBetterCountry",
+      "dialog_node": "node_7_1614942787331",
+      "previous_sibling": "node_9_1614940436815"
+    },
+    {
+      "type": "folder",
+      "title": "Smalltalk",
+      "dialog_node": "node_8_1614870847686"
+    },
+    {
+      "type": "folder",
+      "title": "Informations sur les JO ",
+      "dialog_node": "node_8_1614936871829",
+      "previous_sibling": "node_8_1614870847686"
+    },
+    {
+      "type": "standard",
+      "title": "Nombre de discipline ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "De même que pour les épreuves, le nombre de discipline évolue selon la saison. En été on en compte 42 et 12 en hiver "
+              },
+              {
+                "text": "42 en été et 12 en hiver "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614936871829",
+      "conditions": "#GetNumberDiscipline",
+      "dialog_node": "node_8_1614938012641",
+      "previous_sibling": "node_10_1614937670202"
+    },
+    {
+      "type": "standard",
+      "title": "Je vais bien",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Super, content que tu te sentes bien :)"
+              },
+              {
+                "text": "Super, bah écoute puisque tu poses la question je vais bien ..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenue",
+      "conditions": "#SmallTalkOk",
+      "dialog_node": "node_8_1614943024805",
+      "previous_sibling": "node_1_1614935702633"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Super cool ça ! "
+              },
+              {
+                "text": "Ok, ça à l'air cool ..."
+              },
+              {
+                "text": "Tu fais des trucs pas très intéressant dis moi ..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1614936372237",
+      "conditions": "anything_else",
+      "dialog_node": "node_8_1614948904750",
+      "previous_sibling": "node_6_1614948983747"
+    },
+    {
+      "type": "standard",
+      "title": "Affichage des sports",
+      "parent": "node_9_1614940664191",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "action": "sports"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#GetSportsList",
+      "dialog_node": "node_9_1614785617743",
+      "previous_sibling": "node_4_1614848598742"
+    },
+    {
+      "type": "standard",
+      "title": "Demande de discipline ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Voici quelques disciplines présentes aux JO : Athlétisme, Aviron, Basketball, Boxe, VTT, Equitation, Football, Judo, Skate et Surf"
+              },
+              {
+                "text": "Quelques disciplines présentes aux JO, et notamment d'hiver : Curling, Luge, Bobsleigh (trace la glace), Patinage, Ski "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1614936871829",
+      "conditions": "#AskSomeDiscipline",
+      "dialog_node": "node_9_1614940436815",
+      "previous_sibling": "node_8_1614938012641"
+    },
+    {
+      "type": "folder",
+      "title": "Récupération depuis la BDD",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1614940664191",
+      "previous_sibling": "node_8_1614936871829"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bonjour, comment allez-vous ? "
+              },
+              {
+                "text": "Bonjour"
+              },
+              {
+                "text": "Hey ! Comment vas-tu ? "
+              },
+              {
+                "text": "Wesh gros, bien ou bien ? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bienvenue",
+      "disabled": true,
+      "dialog_node": "response_1_1614928530123",
+      "previous_sibling": "node_2_1614936372237"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$jeuolympique.text"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614859799537",
+      "conditions": "",
+      "dialog_node": "response_2_1614859819377"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$webhook_result_3.text"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1614869672675",
+      "conditions": "",
+      "dialog_node": "response_3_1614869705994"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_2.text"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1614861982395",
+      "conditions": "",
+      "dialog_node": "response_5_1614867688324"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$resultName.text"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1614848598742",
+      "conditions": "",
+      "dialog_node": "response_6_1614848660481"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_1.text"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1614785617743",
+      "conditions": "",
+      "dialog_node": "response_9_1614843537144"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Vouliez-vous dire:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Aucune de précédent"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Vouliez-vous dire:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "JO Application",
+  "language": "fr",
+  "description": ""
+}
